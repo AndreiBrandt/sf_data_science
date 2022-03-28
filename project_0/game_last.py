@@ -1,6 +1,7 @@
 import numpy as np
 
 def random_predict(number:int=1) -> int:
+    #Функция 
     count = 0
     min_number = 1 
     max_number = 100
@@ -18,8 +19,9 @@ def random_predict(number:int=1) -> int:
     return (count)
         
 def score_game (random_predict):
+    #Функция создает список с 1000 рендомными значениями от 1 до 100.
     count_ls = []
-    random_array = np.random.randint(1, 101, size =(1))  
+    random_array = np.random.randint(1, 101, size =(1000))  
     for number in random_array:
         count_ls.append(random_predict(number))
      
