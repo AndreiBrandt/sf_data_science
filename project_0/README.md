@@ -36,3 +36,5 @@
 
 ### Что нужно для запуска проекта?
 pip install -r requirements.txt
+
+:arrow_up:[к оглавлению](https://github.com/AndreiBrandt/sf_data_science/blob/main/project_0/README.md#Оглавление)
