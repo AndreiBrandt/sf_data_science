@@ -32,7 +32,7 @@ def score_game (random_predict):
         count_ls.append(random_predict(number))
      
     score = int(np.mean(count_ls))
-    print(score) 
+    print(f'Программа угадывает загаданное число в среднем за {score} попыток.') 
     return(score)
 
     
