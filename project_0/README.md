@@ -3,8 +3,7 @@
 ## Оглавление  
 [1. Описание проекта](https://github.com/AndreiBrandt/sf_data_science/blob/main/project_0/README.md#Описание-проекта)  
 [2. Какой кейс решаем?](https://github.com/AndreiBrandt/sf_data_science/blob/main/project_0/README.md#Какой-кейс-решаем)    
-[3. Результат](https://github.com/AndreiBrandt/sf_data_science/blob/main/project_0/README.md#Результат)    
-[4. Выводы](https://github.com/AndreiBrandt/sf_data_science/blob/main/project_0/README.md#Выводы) 
+[3. Результаты:](https://github.com/AndreiBrandt/sf_data_science/blob/main/project_0/README.md#Результат)    
 
 ### Описание проекта    
 Угадать загаданное компьютером число за минимальное число попыток.
