@@ -1,11 +1,11 @@
 import numpy as np
 
 def random_predict(number:int=1) -> int:
-    #Функция пытается угадать загаданное на отрезке от 1 до 100.  
-    #Где number - загаданное число, min_number - нижняя граница. max_number - верхняя граница, count - кол-во попыток.
-    #На каждом шаге цикла, если число не угадано, ищется среднее значение между границами,
-    #которое изменяет нижнюю или верхнюю границу собой, в зависимости от того больше или меньше загаданное число. 
-    #При завершении функции возвращается количество попыток с которого получилось угадать загаданное число.
+    #The function tries to guess the guessed number  on the segment from 1 to 100.
+    #Where number is the guessed number, min_number is the lower bound. max_number - upper bound, count - number of attempts.
+    #At each step of the loop if the number is not guessed, the average value between the boundaries is searched,
+    #which changes the lower or upper bound by itself, depending on whether the guessed number is greater or less.
+    #At the end of the function, the number of attempts from which it turned out to guess the guessed number is returned.
     count = 0
     min_number = 1 
     max_number = 100
@@ -23,9 +23,9 @@ def random_predict(number:int=1) -> int:
     return (count)
         
 def score_game (random_predict):
-    #Функция создает список random_array с 1000 рендомными значениями от 1 до 100.
-    #И сохраняет с какой попытки было угадано число в переменную count_ls. 
-    #По окончанию возвращает переменную score, в которой храниться среднее значение всех попыток. 
+    #The function creates a random_array list with 1000 random values ​​from 1 to 100.
+    #And stored with whatever reversed number is in the count_ls variable.
+    #When finished, it returns a variable grade that stores the average of all grades
     count_ls = []
     random_array = np.random.randint(1, 101, size =(1000))  
     for number in random_array:
